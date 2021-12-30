@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="css/reset.css"><!-- 리셋 css -->
+    <link rel="stylesheet" href="css/style.css"><!-- 스타일 css -->
+    <link rel="stylesheet" href="css/slick.css"><!-- 슬릭 슬라이드 css -->
+    <link rel="stylesheet" href="css/font-awesome.css"><!-- 폰트어썸 구버전 css -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"><!-- 폰트어썸 신버전 CDN -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script><!-- 제이쿼리 js -->
+    <script src="js/jquery-ui.min.js"></script><!-- 제이쿼리UI js -->
+    <script src="js/slick.min.js"></script><!-- 슬릭 슬라이더 js -->
+</head>
+<body>
+
+    <nav id="nav">
+        <div class="menu">
+            <div class="menu__left">
+                <a href="/portfolio/index.html"><em>HO SEOL</em></a>
+            </div>
+            <div class="menu__right">
+                <ul>
+                    <li><a href="#section1"><em>Home</em></a></li>
+                    <li><a href="#section2"><em>About</em></a></li>
+                    <li><a href="#section3"><em>Skills</em></a></li>
+                    <li><a href="#section4"><em>My work</em></a></li>
+                    <li><a href="#section5"><em>Contact</em></a></li>
+                    <div id="menu__line"></div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- //nav -->
+
+    <main id="main">
+        <section id="section1" class="content__item">
+            <div class="section1">
+                <div class="title">
+                    <div class="title__text">
+                        <p>끊임없이 성장하는</p>
+                        <p>프론트엔드</p>
+                        <p>오호설입니다</p>
+                    </div>
+                    <p id="dynamic" class="lg-text"></p>
+                </div>
+            </div>
+            <div class="scroll">
+                <em>scroll</em>
+            </div>
+        </section>
+        <!-- //section1 -->
+        <section id="section2" class="content__item">
+            <div class="container">
+                <div class="section2">
+                    <div class="sub__title">
+                        <h2>About Me</h2>
+                    </div>
+                    <div class="about__wrap">
+                        <div class="about__text--left">
+                            <h3>Education</h3><span></span>
+                            <ul>
+                                <li><em>2021.07.13 ~ 2021.11.25(650시간)</em></li>
+                                <li><em>스마트기기 UXUI 웹디자이너양성과정 수료</em></li>
+                                <li><em>SBS 아카데미 대구</em></li>
+                            </ul>
+                            <ul>
+                                <li><em>2014.03 ~ 2015.02</em></li>
+                                <li><em>한국복지 사이버대 청소년상담과 졸업</em></li>
+                            </ul>
+                            <ul>
+                                <li><em>2010.03 ~ 2013.02</em></li>
+                                <li><em>군위 고등학교 졸업</em></li>
+                            </ul>
+                        </div>
+                        <div class="about__img">
+                            <img src="img/section2.jpg" alt="">
+                        </div>
+                        <div class="about__text--right">
+                            <div>
+                                <span></span><h3>오호설</h3>
+                                <ul>
+                                    <li><em>1994.04.21</em></li>
+                                    <li><em>010-3382-9590</em></li>
+                                    <li><em>dhgh9590@naver.com</em></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <span></span><h3>Address</h3>
+                                <ul>
+                                    <li><em>경상북도 구미시 사곡동</em></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <span></span><h3>Certificate</h3>
+                                <ul>
+                                    <li><em>PC정비사 2급</em></li>
+                                    <li><em>네트워크 관리사 2급</em></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- //section2 -->
+        <section id="section3" class="content__item">
+            <div class="container">
+                <div class="section2">
+                    <div class="sub__title">
+                        <h2>Skills</h2>
+                    </div>
+                    <div class="skill__wrap">
+                        <div>
+                            <div class="skill__list">
+                                <img src="img/html.png" alt="" class="skill__img">
+                                <p class="num__animation" data-rate="90">0</p>
+                                
+                            </div>
+                            <h4>#HTML</h4>
+                        </div>
+                        <div>
+                            <div class="skill__list">
+                                <img src="img/css.png" alt="" class="skill__img">
+                                <p class="num__animation" data-rate="90">0</p>
+                            </div>
+                            <h4>#CSS</h4>
+                        </div>
+                        <div>
+                            <div class="skill__list">
+                                <img src="img/js.png" alt="" class="skill__img">
+                                <p class="num__animation" data-rate="75">0</p>
+                            </div>
+                            <h4>#JAVASCRIPT</h4>
+                        </div>
+                        <div>
+                            <div class="skill__list">
+                                <img src="img/jq.png" alt="" class="skill__img">
+                                <p class="num__animation" data-rate="80">0</p>
+                            </div>
+                            <h4>#JQUERY</h4>
+                        </div>
+                        <div>
+                            <div class="skill__list">
+                                <img src="img/react.png" alt="" class="skill__img">
+                                <p class="num__animation" data-rate="75">0</p>
+                            </div>
+                            <h4>#REACT</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- //section3 -->
+        <section id="section4" class="content__item">
+            <div class="container">
+                <div class="section4">
+                    <div class="sub__title">
+                        <h2>My work</h2>
+                    </div>
+                </div>
+                <div class="work__btn">
+                    <button class="category__btn active" data-filter="*">All</button>
+                    <button class="category__btn" data-filter="Javascript">Javascript</button>
+                    <button class="category__btn" data-filter="Jquery">Jquery</button>
+                    <button class="category__btn" data-filter="React">React</button>
+                </div>
+                <div class="work__content">
+                    <div class="work__item" data-type="Javascript">
+                        <img src="img/js-project.png" alt="">
+                        <h4>소개 페이지</h4>
+                        <div class="overlay">
+                            <ul>
+                                <li><a href="/portfolio/index.html" target="blink"><em>View site</em></a></li>
+                                <li><a href="#" target="blink"><em>Git hub</em></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="work__item" data-type="Javascript">
+                        <img src="img/js-game.png" alt="">
+                        <h4>랜덤 숫자게임</h4>
+                        <div class="overlay">
+                            <ul>
+                                <li><a href="/project/number-game/index.html" target="blink"><em>View site</em></a></li>
+                                <li><a href="https://github.com/dhgh9590/number-game" target="blink"><em>Git hub</em></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="work__item" data-type="Javascript">
+                        <img src="img/js-todo.png" alt="">
+                        <h4>Todo 리스트</h4>
+                        <div class="overlay">
+                            <ul>
+                                <li><a href="/project/Todo/index.html" target="blink"><em>View site</em></a></li>
+                                <li><a href="https://github.com/dhgh9590/Todo" target="blink"><em>Git hub</em></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="work__item" data-type="Jquery">
+                        <img src="img/jq-ben.png" alt="">
+                        <h4>벤틀리 리뉴얼</h4>
+                        <div class="overlay">
+                            <ul>
+                                <li><a href="/portfolio1/bentley/main/main_index.html" target="blink"><em>View site</em></a></li>
+                                <li><a href="https://github.com/dhgh9590/bentley" target="blink"><em>Git hub</em></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="work__item" data-type="Jquery">
+                        <img src="img/jq-sam.png" alt="">
+                        <h4>삼천리 리뉴얼</h4>
+                        <div class="overlay">
+                            <ul>
+                                <li><a href="/portfolio1/samchuly/main/main.html" target="blink"><em>View site</em></a></li>
+                                <li><a href="https://github.com/dhgh9590/samchuly" target="blink"><em>Git hub</em></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="work__item" data-type="Jquery">
+                        <img src="img/jq-.png" alt="">
+                        <h4>LS전선 리뉴얼</h4>
+                        <div class="overlay">
+                            <ul>
+                                <li><a href="/portfolio1/LS/main/index.html" target="blink"><em>View site</em></a></li>
+                                <li><a href="https://github.com/dhgh9590/LS" target="blink"><em>Git hub</em></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="work__item" data-type="Jquery">
+                        <img src="img/jq-lynn.png" alt="">
+                        <h4>린 리뉴얼</h4>
+                        <div class="overlay">
+                            <ul>
+                                <li><a href="/portfolio1/Lynn/main/index.html" target="blink"><em>View site</em></a></li>
+                                <li><a href="https://github.com/dhgh9590/Lynn" target="blink"><em>Git hub</em></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- //section4 -->
+        <section id="section5" class="content__item"></section>
+        <!-- //section5 -->
+    </main>
+    <!-- //main -->
+
+    <footer id="footer"></footer>
+    <!-- //footer -->
+
+
+
+    <script>
+        /* work */
+        const workBtn = document.querySelector(".work__btn");
+        const workContent = document.querySelector(".work__content");
+        const workItems = document.querySelectorAll(".work__item");
+        const categoryBtn = document.querySelectorAll(".category__btn");
+
+        //workItems에 class 추가
+        workItems.forEach((el)=>{
+            el.addEventListener("mouseenter",()=>{
+                el.classList.add("active");
+            });
+            el.addEventListener("mouseleave",()=>{
+                workItems.forEach((e)=>{
+                    e.classList.remove("active");
+                });
+            });
+        });
+        
+        //버튼에 class추가
+        categoryBtn.forEach((el)=>{
+            el.addEventListener("click",()=>{
+                categoryBtn.forEach((e)=>{
+                    e.classList.remove("active");
+                });
+                el.classList.add("active");
+            });
+        });
+
+        workBtn.addEventListener("click",(e)=>{
+            const filter = e.target.dataset.filter;
+            if(filter == null){
+                return;
+            }
+
+            //animation 효과
+            workContent.classList.add("anim-out");
+            setTimeout(function(){
+                //type비교해서 class 추가
+                workItems.forEach((workItem)=>{
+                    if(filter === "*" || filter === workItem.dataset.type){
+                        workItem.classList.remove("invisible");
+                    }else{
+                        workItem.classList.add("invisible");
+                    }
+                });
+                workContent.classList.remove("anim-out");
+            },300);
+        });
+
+
+
+        /* 숫자 카운트 */
+        let numAnimation = document.querySelectorAll(".num__animation");
+        let skillList = document.querySelectorAll(".skill__list");
+        
+        skillList.forEach(function(el,index){
+            el.addEventListener("mouseenter",function(){
+                skillList.forEach((el)=>{
+                    el.classList.remove("active");
+                });
+                el.classList.add("active");
+                changeNum(index);
+            });
+            el.addEventListener("mouseleave",function(){
+                skillList.forEach((el)=>{
+                    el.classList.remove("active");
+                });
+            });
+        });
+
+        //숫자 카운트 함수
+        function changeNum(index){
+            let num = 0;
+            let targetNum = numAnimation[index].getAttribute("data-rate");
+            let timer = setInterval(function(){
+            ++num;
+            numAnimation[index].innerText = num;
+            if(num == targetNum){
+                    clearInterval(timer);
+                }
+            },10);
+        }
+
+        /* 타이핑 효과 */
+        let target = document.querySelector("#dynamic");
+        //3초 후 랜덤한 문장 실행 (순서3)
+        function randomString(){ 
+            let stringArr = ["#Javascript  #React  #Jquery"]; //target에 들어갈 문장 배열로 저장
+            let selectString = stringArr[Math.floor(Math.random() * stringArr.length)];//stringArr을 랜덤으로 불러오기  * length만큼 랜덤 만들기 Math.floor는 소수점을 없에줌
+            let selectStringArr = selectString.split(""); //"" 기준으로 글자가 쪼개져 배열로 됨
+
+            return selectStringArr; //최종 변수값을 리턴
+        }
+
+        //타이핑 리셋 (순서2)
+        function resetTyping(){//타겟을 빈값으로 만들고 랜덤한 문장을 다시 가지고 옴
+            target.textContent = ""; //textContent는 innerText와 비슷함
+            dynamic(randomString());
+        }
+
+        //한글자씩 텍스트 출력 함수 (순서1)
+        function dynamic(randomArr){
+            if(randomArr.length > 0){
+                target.textContent += randomArr.shift(); //shift는 배열이 있으면 배열의 앞에값을 밖으로 빼내줌
+                setTimeout(function(){ //값이 거짓이 될떼까지 dynamic를 실행함
+                    dynamic(randomArr);
+                },100);
+            }else{
+                setTimeout(resetTyping, 5000); //값이 거짓이 되면 resetTyping을 실행함
+            }
+        }
+
+        //타이핑 효과 1초후에 실행
+        setTimeout(function(){
+            dynamic(randomString());
+        },2000);
+
+        //커서 깜빡임 효과
+        function blink(){
+            target.classList.toggle("active");
+        }
+        setInterval(blink, 500);
+
+        /* 스크롤시 배너 투명도 */
+        const home = document.querySelector("#section1");
+        const homeHeight = home.getBoundingClientRect().height;
+        const title = document.querySelector(".title");
+        window.addEventListener("scroll",()=>{
+            title.style.opacity = 1 - window.scrollY / homeHeight;
+        });
+
+        /* 윈도우 로드 이벤트 */
+        window.addEventListener("load",function(){
+            document.querySelector(".title__text").classList.add("active");
+        });
+
+        /* 메뉴 리스트 클릭시 해당 영역으로 이동 */
+        const menuList = document.querySelectorAll(".menu__right ul li a");
+        menuList.forEach((el)=>{
+            el.addEventListener("click",(e)=>{
+                e.preventDefault();
+                document.querySelector(el.getAttribute("href")).scrollIntoView({
+                    behavior:"smooth"
+                })
+            });
+        });
+
+        /* 네비 슬라이드 */
+        let menuLine = document.getElementById("menu__line");
+        let horizontalMenus = document.querySelectorAll(".menu__right ul li");
+        function horizontaIndicator(e){
+            menuLine.style.left = e.currentTarget.offsetLeft + "px";
+            menuLine.style.width = e.currentTarget.offsetWidth + "px";
+        }
+        horizontalMenus.forEach((menu) => {
+            menu.addEventListener("click",(e) =>{
+                horizontaIndicator(e)
+            });
+        });
+
+        /* 스크롤시 section에 active 클레스 추가 및 네비 슬라이드 이동 */
+        window.addEventListener("scroll",scrollProgress);
+        function scrollProgress(){
+            let scrollTop = (window.pageYOffset || document.documentElement.scrollTop || window.scrollY) + window.innerHeight - 300;
+            let contentItem = document.querySelectorAll(".content__item");
+            contentItem.forEach((item,index)=>{
+                if(scrollTop > item.offsetTop){
+                    //전부 active삭제
+                    contentItem.forEach((el)=>{
+                        el.classList.remove("active");
+                    });
+                    //해당하는 section만 active 추가
+                    item.classList.add("active");
+                    //스크롤시 메뉴 슬라이드가 해당하는 메뉴로 이동
+                    menuLine.style.left = horizontalMenus[index].offsetLeft + "px";
+                    menuLine.style.width = horizontalMenus[index].offsetWidth + "px";
+                }
+            });
+        }
+
+    </script>
+    
+</body>
+</html>
