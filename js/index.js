@@ -1,3 +1,4 @@
+
     /* work */
     const workBtn = document.querySelector(".work__btn");
     const workContent = document.querySelector(".work__content");
